@@ -8,6 +8,10 @@ body{
   justify-content: center;
 }
 
+a{
+  text-decoration: none;
+}
+
 .card{    
   border-radius: 15px;
   width: 30%;
@@ -64,6 +68,16 @@ header{
   font-weight:600;
   border: none;
 }
+
+.button:hover{
+  cursor: pointer;
+}
+
+.button:active{
+  background-color: white;
+}
+
+
 #linked-button{
   background-color: #5093e2;
   color: blanchedalmond;
@@ -91,8 +105,14 @@ footer{
   justify-content: center;
   gap: 5%;
   font-size: 2.5rem;
+    
+}
+
+footer a{
   color: grey;
-  
-  
+}
+
+footer a:active{
+  color: whitesmoke;
 }
 
