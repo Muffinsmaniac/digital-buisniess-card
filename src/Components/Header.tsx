@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <header>        
-            <img src="./src/Jesper.jpg" alt="Picture of Jesper." className="pic"/>
+            <img src="/Jesper.jpg" alt="Picture of Jesper." className="pic"/>
             <h1 className="my-name">Jesper Elovsson</h1>
             <h2 className="titel">Fullstack Developer</h2>
             <div className="buttons">
